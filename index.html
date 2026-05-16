@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panji Web</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <h1>Panji Web</h1>
+        <p>Website sederhana untuk GitHub Pages dengan fitur setup, biaya, banwich, dan backend.</p>
+      </div>
+      <nav>
+        <a href="#setup">Setup</a>
+        <a href="#biaya">Biaya</a>
+        <a href="#banwich">Banwich</a>
+        <a href="#backend">Backend</a>
+        <a href="https://chelseaanastasya513-cyber.github.io/panji_web" target="_blank" rel="noopener noreferrer">Akses</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="setup" class="section-card">
+      <h2>Setup</h2>
+      <p>Website ini dibuat dengan HTML, CSS, dan JavaScript. Gunakan GitHub Pages untuk hosting gratis.</p>
+      <ol>
+        <li>Buat repository baru di GitHub.</li>
+        <li>Upload file <code>index.html</code>, <code>styles.css</code>, dan <code>script.js</code>.</li>
+        <li>Aktifkan GitHub Pages di pengaturan repository.</li>
+        <li>Pilih branch <strong>main</strong> dan folder <strong>/ (root)</strong>.</li>
+      </ol>
+      <p>Website Anda akan muncul di <code>https://username.github.io/repository-name</code>.</p>
+    </section>
+
+    <section id="biaya" class="section-card">
+      <h2>Biaya</h2>
+      <p>GitHub Pages dapat digunakan gratis untuk situs statis. Untuk website sederhana seperti ini, tidak perlu biaya bulanan.</p>
+      <div class="info-box">
+        <h3>Biaya hosting</h3>
+        <ul>
+          <li>GitHub Pages: <strong>Gratis</strong></li>
+          <li>Domain khusus: optional, tergantung penyedia domain</li>
+          <li>SSL: otomatis dengan GitHub Pages</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="banwich" class="section-card">
+      <h2>Banwich</h2>
+      <p>Banwich adalah fitur produk demo di website ini. Gunakan bagian ini untuk menampilkan menu, harga, dan detail promosi.</p>
+      <div class="card-grid">
+        <article class="product-card">
+          <h3>Banwich Classic</h3>
+          <p>Roti lapis isi daging, selada, tomat, dan saus spesial.</p>
+          <strong>Rp 25.000</strong>
+        </article>
+        <article class="product-card">
+          <h3>Banwich Spicy</h3>
+          <p>Roti lapis pedas dengan saus cabai dan irisan cabai segar.</p>
+          <strong>Rp 28.000</strong>
+        </article>
+        <article class="product-card">
+          <h3>Banwich Vegan</h3>
+          <p>Roti lapis sayur lengkap dengan saus vegan dan biji-bijian.</p>
+          <strong>Rp 27.000</strong>
+        </article>
+      </div>
+    </section>
+
+    <section id="backend" class="section-card">
+      <h2>Backend</h2>
+      <p>Untuk proyek sederhana, Anda bisa menggunakan backend ringan dengan Node.js atau menampilkan data langsung dari JavaScript.</p>
+      <button id="loadBackend" class="primary-button">Load Info Backend</button>
+      <div id="backendContent" class="backend-box">
+        <p>Tekan tombol untuk melihat contoh response backend.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Website ini cocok untuk GitHub Pages dan dapat dikembangkan menjadi portfolio atau landing page sederhana.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
